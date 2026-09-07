@@ -1,7 +1,7 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ephraim-9/Ephraim-9/main/assets/terminal_dark.svg">
-    <img alt="Ephraim Arshad's Terminal Card" src="https://raw.githubusercontent.com/Ephraim-9/Ephraim-9/main/assets/terminal_light.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ephraim-9/Ephraim-9/main/assets/terminal_dark.svg?v=thinkpad">
+    <img alt="Ephraim Arshad's Terminal Card" src="https://raw.githubusercontent.com/Ephraim-9/Ephraim-9/main/assets/terminal_light.svg?v=thinkpad" width="100%">
   </picture>
 </div>
 
