@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" font-family="'Fira Code', Consolas, 'Cascadia Code', 'JetBrains Mono', Menlo, monospace" width="940" height="420" font-size="13.5px">
+<style>
+  .header-bar { fill: #161b22; stroke: #30363d; stroke-width: 1px; }
+  .term-bg { fill: #0d1117; stroke: #30363d; stroke-width: 1px; }
+  .dot-red { fill: #ff5f56; }
+  .dot-yellow { fill: #ffbd2e; }
+  .dot-green { fill: #27c93f; }
+  .user { fill: #58a6ff; font-weight: bold; }
+  .host { fill: #bc8cff; font-weight: bold; }
+  .sep { fill: #8b949e; }
+  .key { fill: #79c0ff; font-weight: 600; }
+  .val { fill: #c9d1d9; }
+  .highlight { fill: #3fb950; font-weight: 600; }
+  .accent { fill: #f0883e; font-weight: 600; }
+  .comment { fill: #8b949e; }
+  .logo { fill: #51a2da; font-size: 11.5px; }
+  text, tspan { white-space: pre; }
+</style>
+<rect x="0" y="0" width="940" height="420" rx="10" class="term-bg" />
+<rect x="0" y="0" width="940" height="34" rx="10" class="header-bar" />
+<rect x="0" y="20" width="940" height="14" class="header-bar" />
+<circle cx="20" cy="17" r="6" class="dot-red" />
+<circle cx="38" cy="17" r="6" class="dot-yellow" />
+<circle cx="56" cy="17" r="6" class="dot-green" />
+<text x="470" y="22" fill="#8b949e" font-size="12px" text-anchor="middle">ephraim@fedora-workstation: ~ (fastfetch)</text>
+
+<!-- Fedora ASCII on Left -->
+<text x="32" y="66" class="logo">
+<tspan x="32" y="66">             .',;::::;,'.</tspan>
+<tspan x="32" y="81">         .';:cccccccccccc:;,.</tspan>
+<tspan x="32" y="96">      .;cccccccccccccccccccccc;.</tspan>
+<tspan x="32" y="111">    .:cccccccccccccccccccccccccc:.</tspan>
+<tspan x="32" y="126">  .;ccccccccccccc;.:dddl:.;ccccccc;.</tspan>
+<tspan x="32" y="141"> .:ccccccccccccc;OWMKOOXMWd;ccccccc:.</tspan>
+<tspan x="32" y="156">.:ccccccccccccc;KMMc;cc;xMMc;ccccccc:.</tspan>
+<tspan x="32" y="171">,cccccccccccccc;MMM.;cc;;WW:;cccccccc,</tspan>
+<tspan x="32" y="186">:cccccccccccccc;MMM.;cccccccccccccccc:</tspan>
+<tspan x="32" y="201">:ccccccc;oxOOOo;MMM000k.;cccccccccccc:</tspan>
+<tspan x="32" y="216">cccccc;0MMKxdd:;MMMkddc.;cccccccccccc;</tspan>
+<tspan x="32" y="231">ccccc;XMO';cccc;MMM.;cccccccccccccccc'</tspan>
+<tspan x="32" y="246">ccccc;MMo;ccccc;MMW.;ccccccccccccccc;</tspan>
+<tspan x="32" y="261">ccccc;0MNc.ccc.xMMd;ccccccccccccccc;</tspan>
+<tspan x="32" y="276">cccccc;dNMWXXXWM0:;cccccccccccccc:,</tspan>
+<tspan x="32" y="291">cccccccc;.:odl:.;cccccccccccccc:,.</tspan>
+<tspan x="32" y="306">ccccccccccccccccccccccccccccc:'.</tspan>
+<tspan x="32" y="321">:ccccccccccccccccccccccc:;,..</tspan>
+<tspan x="32" y="336"> ':cccccccccccccccc::;,.</tspan>
+<tspan x="45" y="365" fill="#8b949e" font-size="11px">   [fedora linux · x86_64]</tspan>
+<tspan x="45" y="382" fill="#8b949e" font-size="11px">   [thinkpad t590 · tailscale]</tspan>
+</text>
+
+<!-- Fastfetch Specs on Right -->
+<text x="350" y="70" class="val">
+<tspan class="user">ephraim</tspan><tspan class="sep">@</tspan><tspan class="host">fedora-workstation</tspan>
+<tspan x="350" y="86" class="sep">---------------------------------------------------------</tspan>
+<tspan x="350" y="108" class="key">Role       </tspan><tspan class="sep">: </tspan><tspan class="val">Lead Software Engineer &amp; Head of IT @ DWO</tspan>
+<tspan x="350" y="129" class="key">Focus      </tspan><tspan class="sep">: </tspan><tspan class="val">Systems Engineering · Local-First · Agentic AI</tspan>
+<tspan x="350" y="150" class="key">OS &amp; Env   </tspan><tspan class="sep">: </tspan><tspan class="val">Fedora 44 / Arch Linux · ThinkPad T590</tspan>
+<tspan x="350" y="171" class="key">Languages  </tspan><tspan class="sep">: </tspan><tspan class="val">TypeScript, Rust, Python, C++, SQL</tspan>
+<tspan x="350" y="192" class="key">Tooling    </tspan><tspan class="sep">: </tspan><tspan class="val">Model Context Protocol (MCP), Claude Code, Docker</tspan>
+<tspan x="350" y="213" class="key">Shipping   </tspan><tspan class="sep">: </tspan><tspan class="accent">Epistle</tspan><tspan class="val"> (npm MCP server) · </tspan><tspan class="accent">Shunkan</tspan><tspan class="val"> (Rust P2P QUIC)</tspan>
+<tspan x="350" y="234" class="key">Scale      </tspan><tspan class="sep">: </tspan><tspan class="highlight">456k+ Students</tspan><tspan class="val"> · </tspan><tspan class="highlight">1,000+ Boxes</tspan><tspan class="val"> · </tspan><tspan class="highlight">175 Agentic Commits</tspan>
+<tspan x="350" y="255" class="sep">---------------------------------------------------------</tspan>
+<tspan x="350" y="278" class="key">Portfolio  </tspan><tspan class="sep">: </tspan><tspan class="val">https://ephraim.is-a.dev</tspan>
+<tspan x="350" y="299" class="key">Packages   </tspan><tspan class="sep">: </tspan><tspan class="val">https://npmjs.com/package/epistle</tspan>
+<tspan x="350" y="320" class="key">LinkedIn   </tspan><tspan class="sep">: </tspan><tspan class="val">https://linkedin.com/in/ephraim-arshad</tspan>
+<tspan x="350" y="341" class="key">Location   </tspan><tspan class="sep">: </tspan><tspan class="val">Peshawar, Pakistan</tspan>
+<tspan x="350" y="362" class="key">PGP/Audit  </tspan><tspan class="sep">: </tspan><tspan class="comment">Verified Commits · Autonomous Branches</tspan>
+</text>
+</svg>
