@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" font-family="'Fira Code', Consolas, 'Cascadia Code', 'JetBrains Mono', Menlo, monospace" width="940" height="420" font-size="13.5px">
+<svg xmlns="http://www.w3.org/2000/svg" font-family="'Fira Code', Consolas, 'Cascadia Code', 'JetBrains Mono', Menlo, monospace" width="940" height="380" font-size="13.5px">
 <style>
   .header-bar { fill: #eaeef2; stroke: #d0d7de; stroke-width: 1px; }
   .term-bg { fill: #ffffff; stroke: #d0d7de; stroke-width: 1px; }
@@ -12,17 +12,16 @@
   .val { fill: #24292f; }
   .highlight { fill: #1a7f37; font-weight: 600; }
   .accent { fill: #bc4c00; font-weight: 600; }
-  .comment { fill: #6e7781; }
   .logo { fill: #216ba5; font-size: 11.5px; }
   text, tspan { white-space: pre; }
 </style>
-<rect x="0" y="0" width="940" height="420" rx="10" class="term-bg" />
+<rect x="0" y="0" width="940" height="380" rx="10" class="term-bg" />
 <rect x="0" y="0" width="940" height="34" rx="10" class="header-bar" />
 <rect x="0" y="20" width="940" height="14" class="header-bar" />
 <circle cx="20" cy="17" r="6" class="dot-red" />
 <circle cx="38" cy="17" r="6" class="dot-yellow" />
 <circle cx="56" cy="17" r="6" class="dot-green" />
-<text x="470" y="22" fill="#57606a" font-size="12px" text-anchor="middle">ephraim@fedora-workstation: ~ (fastfetch)</text>
+<text x="470" y="22" fill="#57606a" font-size="12px" text-anchor="middle">ephraim@fedora: ~ (fastfetch)</text>
 
 <!-- Fedora ASCII on Left -->
 <text x="32" y="66" class="logo">
@@ -45,26 +44,24 @@
 <tspan x="32" y="306">ccccccccccccccccccccccccccccc:'.</tspan>
 <tspan x="32" y="321">:ccccccccccccccccccccccc:;,..</tspan>
 <tspan x="32" y="336"> ':cccccccccccccccc::;,.</tspan>
-<tspan x="45" y="365" fill="#57606a" font-size="11px">   [fedora linux · x86_64]</tspan>
-<tspan x="45" y="382" fill="#57606a" font-size="11px">   [thinkpad t590 · tailscale]</tspan>
+<tspan x="55" y="360" fill="#57606a" font-size="11px">[fedora linux · thinkpad t590]</tspan>
 </text>
 
 <!-- Fastfetch Specs on Right -->
 <text x="350" y="70" class="val">
-<tspan class="user">ephraim</tspan><tspan class="sep">@</tspan><tspan class="host">fedora-workstation</tspan>
+<tspan class="user">ephraim</tspan><tspan class="sep">@</tspan><tspan class="host">fedora</tspan>
 <tspan x="350" y="86" class="sep">---------------------------------------------------------</tspan>
-<tspan x="350" y="108" class="key">Role       </tspan><tspan class="sep">: </tspan><tspan class="val">Lead Software Engineer &amp; Head of IT @ DWO</tspan>
-<tspan x="350" y="129" class="key">Focus      </tspan><tspan class="sep">: </tspan><tspan class="val">Systems Engineering · Local-First · Agentic AI</tspan>
-<tspan x="350" y="150" class="key">OS &amp; Env   </tspan><tspan class="sep">: </tspan><tspan class="val">Fedora 44 / Arch Linux · ThinkPad T590</tspan>
-<tspan x="350" y="171" class="key">Languages  </tspan><tspan class="sep">: </tspan><tspan class="val">TypeScript, Rust, Python, C++, SQL</tspan>
-<tspan x="350" y="192" class="key">Tooling    </tspan><tspan class="sep">: </tspan><tspan class="val">Model Context Protocol (MCP), Claude Code, Docker</tspan>
-<tspan x="350" y="213" class="key">Shipping   </tspan><tspan class="sep">: </tspan><tspan class="accent">Epistle</tspan><tspan class="val"> (npm MCP server) · </tspan><tspan class="accent">Shunkan</tspan><tspan class="val"> (Rust P2P QUIC)</tspan>
-<tspan x="350" y="234" class="key">Scale      </tspan><tspan class="sep">: </tspan><tspan class="highlight">456k+ Students</tspan><tspan class="val"> · </tspan><tspan class="highlight">1,000+ Boxes</tspan><tspan class="val"> · </tspan><tspan class="highlight">175 Agentic Commits</tspan>
-<tspan x="350" y="255" class="sep">---------------------------------------------------------</tspan>
-<tspan x="350" y="278" class="key">Portfolio  </tspan><tspan class="sep">: </tspan><tspan class="val">https://ephraim.is-a.dev</tspan>
-<tspan x="350" y="299" class="key">Packages   </tspan><tspan class="sep">: </tspan><tspan class="val">https://npmjs.com/package/epistle</tspan>
-<tspan x="350" y="320" class="key">LinkedIn   </tspan><tspan class="sep">: </tspan><tspan class="val">https://linkedin.com/in/ephraim-arshad</tspan>
-<tspan x="350" y="341" class="key">Location   </tspan><tspan class="sep">: </tspan><tspan class="val">Peshawar, Pakistan</tspan>
-<tspan x="350" y="362" class="key">PGP/Audit  </tspan><tspan class="sep">: </tspan><tspan class="comment">Verified Commits · Autonomous Branches</tspan>
+<tspan x="350" y="110" class="key">Role       </tspan><tspan class="sep">: </tspan><tspan class="val">Lead Software Engineer &amp; Head of IT @ DWO</tspan>
+<tspan x="350" y="132" class="key">Focus      </tspan><tspan class="sep">: </tspan><tspan class="val">Systems Engineering · Local-First · Dev Tools</tspan>
+<tspan x="350" y="154" class="key">OS / Host  </tspan><tspan class="sep">: </tspan><tspan class="val">Fedora Linux / ThinkPad T590</tspan>
+<tspan x="350" y="176" class="key">Languages  </tspan><tspan class="sep">: </tspan><tspan class="val">TypeScript, Rust, Python, C++, SQL</tspan>
+<tspan x="350" y="198" class="key">Stack      </tspan><tspan class="sep">: </tspan><tspan class="val">Next.js, Node.js, QUIC, PostgreSQL, MongoDB</tspan>
+<tspan x="350" y="220" class="key">Tooling    </tspan><tspan class="sep">: </tspan><tspan class="val">Model Context Protocol (MCP), Claude Code, Docker</tspan>
+<tspan x="350" y="242" class="key">Open Source</tspan><tspan class="sep">: </tspan><tspan class="accent">Epistle</tspan><tspan class="val"> (npm MCP Server) · </tspan><tspan class="accent">Shunkan</tspan><tspan class="val"> (Rust P2P)</tspan>
+<tspan x="350" y="264" class="key">Scale      </tspan><tspan class="sep">: </tspan><tspan class="highlight">456k+ Students</tspan><tspan class="val"> · </tspan><tspan class="highlight">1k+ Units Tracked</tspan>
+<tspan x="350" y="286" class="sep">---------------------------------------------------------</tspan>
+<tspan x="350" y="310" class="key">Web        </tspan><tspan class="sep">: </tspan><tspan class="val">https://ephraim.is-a.dev</tspan>
+<tspan x="350" y="332" class="key">Packages   </tspan><tspan class="sep">: </tspan><tspan class="val">https://npmjs.com/package/epistle</tspan>
+<tspan x="350" y="354" class="key">Contact    </tspan><tspan class="sep">: </tspan><tspan class="val">ephraimhrm@gmail.com · Peshawar, Pakistan</tspan>
 </text>
 </svg>
