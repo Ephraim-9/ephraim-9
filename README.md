@@ -32,11 +32,11 @@ $ tail -n 6 /var/log/dwo-production.log
 
 <div align="center">
   <sub>
-    <a href="https://ephraim.is-a.dev">portfolio</a> • 
-    <a href="https://github.com/Ephraim-9/epistle">epistle</a> • 
-    <a href="https://github.com/Ephraim-9/shunkan">shunkan</a> • 
-    <a href="https://www.npmjs.com/package/epistle">npm</a> • 
-    <a href="https://linkedin.com/in/ephraim-arshad">linkedin</a> • 
-    <a href="mailto:ephraimhrm@gmail.com">ephraimhrm@gmail.com</a>
+    <a href="https://ephraim.is-a.dev" target="_blank" rel="noopener noreferrer">portfolio</a> • 
+    <a href="https://github.com/Ephraim-9/epistle" target="_blank" rel="noopener noreferrer">epistle</a> • 
+    <a href="https://github.com/Ephraim-9/shunkan" target="_blank" rel="noopener noreferrer">shunkan</a> • 
+    <a href="https://www.npmjs.com/package/epistle" target="_blank" rel="noopener noreferrer">npm</a> • 
+    <a href="https://linkedin.com/in/ephraim-arshad" target="_blank" rel="noopener noreferrer">linkedin</a> • 
+    <a href="mailto:ephraimhrm@gmail.com" target="_blank" rel="noopener noreferrer">ephraimhrm@gmail.com</a>
   </sub>
 </div>
