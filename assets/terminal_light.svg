@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" font-family="'Fira Code', Consolas, 'Cascadia Code', 'JetBrains Mono', Menlo, monospace" width="960" height="400" font-size="13px">
+<svg xmlns="http://www.w3.org/2000/svg" font-family="'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, monospace" width="940" height="370" font-size="13px">
 <style>
-  .header-bar { fill: #eaeef2; stroke: #d0d7de; stroke-width: 1px; }
   .term-bg { fill: #ffffff; stroke: #d0d7de; stroke-width: 1px; }
+  .header-bar { fill: #eaeef2; stroke: #d0d7de; stroke-width: 1px; }
   .dot-red { fill: #ff5f56; }
   .dot-yellow { fill: #ffbd2e; }
   .dot-green { fill: #27c93f; }
@@ -12,56 +12,48 @@
   .val { fill: #24292f; }
   .highlight { fill: #1a7f37; font-weight: 600; }
   .accent { fill: #bc4c00; font-weight: 600; }
-  .logo { fill: #1f2328; font-size: 13px; font-weight: bold; }
-  .trackpoint { fill: #cf222e; font-weight: bold; }
-  .dim { fill: #6e7781; font-size: 11px; }
+  .dim { fill: #6e7781; font-size: 11.5px; }
+  .red { fill: #cf222e; font-weight: bold; }
   text, tspan { white-space: pre; }
 </style>
-<rect x="0" y="0" width="960" height="400" rx="10" class="term-bg" />
-<rect x="0" y="0" width="960" height="34" rx="10" class="header-bar" />
-<rect x="0" y="20" width="960" height="14" class="header-bar" />
+<rect x="0" y="0" width="940" height="370" rx="10" class="term-bg" />
+<rect x="0" y="0" width="940" height="34" rx="10" class="header-bar" />
 <circle cx="20" cy="17" r="6" class="dot-red" />
 <circle cx="38" cy="17" r="6" class="dot-yellow" />
 <circle cx="56" cy="17" r="6" class="dot-green" />
-<text x="480" y="22" fill="#57606a" font-size="12px" text-anchor="middle">ephraim@tailscale: ~ (fastfetch)</text>
+<text x="470" y="22" fill="#57606a" font-size="12px" text-anchor="middle">ephraim@tailscale-mesh: ~ (fastfetch)</text>
 
-<!-- ThinkPad ASCII Art with Red Dot on Left -->
-<text x="36" y="80" class="logo">
-<tspan x="36" y="80">      _______ _     _       _ </tspan>
-<tspan x="36" y="96">     |__   __| |   (_)     | |</tspan>
-<tspan x="36" y="112">        | |  | |__  _ _ __ | |</tspan>
-<tspan x="36" y="128">        | |  | '_ \| | '_ \| |</tspan>
-<tspan x="36" y="144">        | |  | | | | | | | | |</tspan>
-<tspan x="36" y="160">        |_|  |_| |_|_|_| |_|_|</tspan>
-<tspan x="36" y="184">      _____           _ </tspan>
-<tspan x="36" y="200">     |  __ \         | |</tspan>
-<tspan x="36" y="216">     | |__) |_ _  __| |</tspan>
-<tspan x="36" y="232">     |  ___/ _` |/ _` |</tspan>
-<tspan x="36" y="248">     | |  | (_| | (_| |</tspan>
-<tspan x="36" y="264">     |_|   \__,_|\__,_|</tspan>
-<tspan x="180" y="96" class="trackpoint">  ●</tspan>
+<!-- System Fleet ASCII (Left) -->
+<text x="35" y="80" fill="#1f2328" font-size="12px">
+<tspan x="35" y="80">   _____ _             _   ____           _  </tspan>
+<tspan x="35" y="96">  |_   _| |__ (<tspan class="red">●</tspan>)_ __ | | _|  _ \ __ _  __| | </tspan>
+<tspan x="35" y="112">    | | | '_ \| | '_ \| |/ / |_) / _` |/ _` | </tspan>
+<tspan x="35" y="128">    | | | | | | | | | |   &lt;|  __/ (_| | (_| | </tspan>
+<tspan x="35" y="144">    |_| |_| |_|_|_| |_|_|\_\_|   \__,_|\__,_| </tspan>
 
-<tspan x="36" y="310" class="dim">  [thinkpad t590 · tailscale]</tspan>
-<tspan x="36" y="330" class="dim">  [pop!_os cosmic · arch hyprland]</tspan>
-<tspan x="36" y="350" class="dim">  [fedora workstation]</tspan>
+<tspan x="35" y="195" class="dim">┌── [FLEET TOPOLOGY] ────────────────┐</tspan>
+<tspan x="35" y="215" class="dim">│ • Workstation  : Fedora 44 (GNOME) │</tspan>
+<tspan x="35" y="235" class="dim">│ • ThinkPad T590 : Pop!_OS (COSMIC) │</tspan>
+<tspan x="35" y="255" class="dim">│ • ThinkPad T590 : Arch (Hyprland)  │</tspan>
+<tspan x="35" y="275" class="dim">│ • Network      : Tailscale Mesh    │</tspan>
+<tspan x="35" y="295" class="dim">└────────────────────────────────────┘</tspan>
+<tspan x="35" y="325" fill="#1a7f37" font-size="11.5px">  ● node status: online / synchronized</tspan>
 </text>
 
-<!-- Fastfetch Specs on Right -->
-<text x="350" y="70" class="val">
+<!-- Fastfetch Specs (Right) -->
+<text x="385" y="75" class="val">
 <tspan class="user">ephraim</tspan><tspan class="sep">@</tspan><tspan class="host">tailscale-mesh</tspan>
-<tspan x="350" y="86" class="sep">-------------------------------------------------------------</tspan>
-<tspan x="350" y="110" class="key">Role       </tspan><tspan class="sep">: </tspan><tspan class="val">Lead Software Engineer &amp; Head of IT @ DWO</tspan>
-<tspan x="350" y="132" class="key">Focus      </tspan><tspan class="sep">: </tspan><tspan class="val">Systems Engineering · Local-First · Dev Tools</tspan>
-<tspan x="350" y="154" class="key">Fleet      </tspan><tspan class="sep">: </tspan><tspan class="val">Workstation (Fedora 44) · ThinkPad T590</tspan>
-<tspan x="350" y="176" class="key">OS &amp; DE    </tspan><tspan class="sep">: </tspan><tspan class="val">Pop!_OS (COSMIC) · Arch (Hyprland) · Fedora (GNOME)</tspan>
-<tspan x="350" y="198" class="key">Languages  </tspan><tspan class="sep">: </tspan><tspan class="val">TypeScript, Rust, Python, C++, SQL</tspan>
-<tspan x="350" y="220" class="key">Stack      </tspan><tspan class="sep">: </tspan><tspan class="val">Next.js, Node.js, QUIC, PostgreSQL, MongoDB</tspan>
-<tspan x="350" y="242" class="key">Tooling    </tspan><tspan class="sep">: </tspan><tspan class="val">Model Context Protocol (MCP), Claude Code, Docker</tspan>
-<tspan x="350" y="264" class="key">Shipping   </tspan><tspan class="sep">: </tspan><tspan class="accent">Epistle</tspan><tspan class="val"> (npm MCP Server) · </tspan><tspan class="accent">Shunkan</tspan><tspan class="val"> (Rust P2P)</tspan>
-<tspan x="350" y="286" class="key">Scale      </tspan><tspan class="sep">: </tspan><tspan class="highlight">456k+ Students</tspan><tspan class="val"> · </tspan><tspan class="highlight">1k+ Units Tracked</tspan>
-<tspan x="350" y="308" class="sep">-------------------------------------------------------------</tspan>
-<tspan x="350" y="332" class="key">Web        </tspan><tspan class="sep">: </tspan><tspan class="val">https://ephraim.is-a.dev</tspan>
-<tspan x="350" y="354" class="key">Packages   </tspan><tspan class="sep">: </tspan><tspan class="val">https://npmjs.com/package/epistle</tspan>
-<tspan x="350" y="376" class="key">Contact    </tspan><tspan class="sep">: </tspan><tspan class="val">ephraimhrm@gmail.com · Peshawar, Pakistan</tspan>
+<tspan x="385" y="91" class="sep">-----------------------------------------------------</tspan>
+<tspan x="385" y="115" class="key">Role       </tspan><tspan class="sep">: </tspan><tspan class="val">Lead SWE &amp; Head of IT @ DWO</tspan>
+<tspan x="385" y="137" class="key">Focus      </tspan><tspan class="sep">: </tspan><tspan class="val">Local-First Systems · Toolmaking · Agentic AI</tspan>
+<tspan x="385" y="159" class="key">Languages  </tspan><tspan class="sep">: </tspan><tspan class="val">TypeScript, Rust, Python, C++, SQL</tspan>
+<tspan x="385" y="181" class="key">Core Stack </tspan><tspan class="sep">: </tspan><tspan class="val">Next.js, Node.js, QUIC, PostgreSQL, MongoDB</tspan>
+<tspan x="385" y="203" class="key">Dev Tools  </tspan><tspan class="sep">: </tspan><tspan class="val">Model Context Protocol (MCP), Claude Code</tspan>
+<tspan x="385" y="225" class="key">Shipping   </tspan><tspan class="sep">: </tspan><tspan class="accent">Epistle</tspan><tspan class="val"> (npm MCP) · </tspan><tspan class="accent">Shunkan</tspan><tspan class="val"> (Rust P2P Engine)</tspan>
+<tspan x="385" y="247" class="key">Impact     </tspan><tspan class="sep">: </tspan><tspan class="highlight">456k+ Students</tspan><tspan class="val"> · </tspan><tspan class="highlight">1,000+ Units Tracked</tspan>
+<tspan x="385" y="269" class="sep">-----------------------------------------------------</tspan>
+<tspan x="385" y="293" class="key">Portfolio  </tspan><tspan class="sep">: </tspan><tspan class="val">https://ephraim.is-a.dev</tspan>
+<tspan x="385" y="315" class="key">Packages   </tspan><tspan class="sep">: </tspan><tspan class="val">https://npmjs.com/package/epistle</tspan>
+<tspan x="385" y="337" class="key">Contact    </tspan><tspan class="sep">: </tspan><tspan class="val">ephraimhrm@gmail.com · Peshawar, Pakistan</tspan>
 </text>
 </svg>

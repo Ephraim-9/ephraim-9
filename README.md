@@ -1,33 +1,42 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ephraim-9/Ephraim-9/main/assets/terminal_dark.svg?v=thinkpad">
-    <img alt="Ephraim Arshad's Terminal Card" src="https://raw.githubusercontent.com/Ephraim-9/Ephraim-9/main/assets/terminal_light.svg?v=thinkpad" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ephraim-9/Ephraim-9/main/assets/terminal_dark.svg?v=mesh">
+    <img alt="Ephraim Arshad's Terminal Card" src="https://raw.githubusercontent.com/Ephraim-9/Ephraim-9/main/assets/terminal_light.svg?v=mesh" width="100%">
   </picture>
 </div>
 
-<br>
+```text
+$ ls -la ~/projects/open-source
+drwxr-xr-x  epistle/   Context-packing CLI & MCP Server for Claude Code & Cursor [TypeScript · MIT]
+drwxr-xr-x  shunkan/   Local-first P2P sync engine over QUIC (quinn/rustls) [Rust · 20MB ceiling]
 
-<p align="center">
-  <a href="https://ephraim.is-a.dev"><b>Portfolio</b></a> &nbsp;•&nbsp;
-  <a href="https://www.npmjs.com/package/epistle"><b>npm</b></a> &nbsp;•&nbsp;
-  <a href="https://linkedin.com/in/ephraim-arshad"><b>LinkedIn</b></a> &nbsp;•&nbsp;
-  <a href="mailto:ephraimhrm@gmail.com"><b>Email</b></a>
-</p>
+$ cat ~/projects/epistle/README.md
+  → Packs full codebases into LLM-friendly context with AST-aware compression & token budgets.
+  → Ships an MCP server exposing 4 tools over stdio. Multi-megabyte packs cost ~300 tokens.
+  → Install: npx epistle · npm: https://npmjs.com/package/epistle · 70 tests / CI Node 18-22.
 
-### Open-Source Tooling
+$ cat ~/projects/shunkan/README.md
+  → P2P clipboard and file synchronizer for Linux ↔ Android. No cloud, no central relay.
+  → mDNS-SD discovery, BLAKE3 chunk hashing, PIN-based pairing. Tauri v2 desktop client.
+```
 
-* **[epistle](https://github.com/Ephraim-9/epistle)** — CLI & Model Context Protocol (MCP) server that packs entire codebases into structured LLM context files with AST compression, token budgets, and secret redaction. Ships an MCP server exposing 4 tools over stdio to Claude Code & Cursor.  
-  `npx epistle` · [npm](https://www.npmjs.com/package/epistle) · MIT
+```text
+$ tail -n 6 /var/log/dwo-production.log
+[INFO] dwo-core: IT Lead across 5 workstreams for education nonprofit reaching 456k+ students.
+[LIVE] dosti-impact: Offline mobile PWA scaled 0 → 1,000+ donation boxes in 9 weeks across 11 field users.
+[LIVE] dosti-impact: Cut dispatch SMS costs 80% (PKR 15 → 2.9) via direct messaging API migration.
+[LIVE] doors-portal: Digitized 1,400+ legacy paper records via 93-field validated intake instrument.
+[LIVE] dwo-crm: Donor platform on MongoDB Atlas (21 screens, 36 API routes) with approval gates.
+[TEST] dealona: Charity membership app (Expo / Supabase / Safepay HMAC-SHA-512 webhook auth).
+```
 
-* **[shunkan](https://github.com/Ephraim-9/shunkan)** — Local-first peer-to-peer clipboard and file sync engine for Linux and Android. Operates over QUIC (`quinn`/`rustls`) with mDNS-SD discovery, BLAKE3 chunk hashing, and a strict 20 MB idle memory ceiling. Zero cloud, zero relays.  
-  Rust · QUIC · Tauri v2
-
-<details>
-  <summary><b>Production Systems @ DWO</b> (5 workstreams · 456,000+ students reached)</summary>
-  <br>
-
-  * **Dosti Impact** — Mobile offline PWA + desktop admin console for donation box field operations (IndexedDB sync queue, GPS/photo verification). Scaled from zero to 1,000+ units across 11 field users in 9 weeks; cut SMS dispatch costs 80% via direct messaging API migration.
-  * **DOORS** — One Room Schools management portal (Next.js 16, Mongoose, Cloudflare R2). Designed a 93-field data dictionary that enabled non-technical staff to digitize 1,400+ legacy paper records without developer intervention.
-  * **DWO CRM** — Multi-organization contact and campaign platform on MongoDB Atlas (21 screens, 36 API routes) with approval gates and WhatsApp webhook automation.
-  * **Dealona** — Charity-linked membership platform with Expo/React Native, Supabase edge functions, and Safepay cryptographic webhook authentication (HMAC-SHA-512).
-</details>
+<div align="center">
+  <sub>
+    <a href="https://ephraim.is-a.dev">portfolio</a> • 
+    <a href="https://github.com/Ephraim-9/epistle">epistle</a> • 
+    <a href="https://github.com/Ephraim-9/shunkan">shunkan</a> • 
+    <a href="https://www.npmjs.com/package/epistle">npm</a> • 
+    <a href="https://linkedin.com/in/ephraim-arshad">linkedin</a> • 
+    <a href="mailto:ephraimhrm@gmail.com">ephraimhrm@gmail.com</a>
+  </sub>
+</div>
